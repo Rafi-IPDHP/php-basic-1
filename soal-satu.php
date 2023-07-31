@@ -28,15 +28,14 @@
         echo strlen($first_sentence);
         echo(", jumlah kata:");
         echo str_word_count($first_sentence);
-        echo(" <b>Dari Kata Hello PHP!</b>");
-        echo("<br>");
+        echo(" <b>Dari Kata ". $first_sentence ."</b><br>");
         
         // Second Sentence
         echo("Panjang String: ");
         echo strlen($second_sentence);
         echo(", jumlah kata:");
         echo str_word_count($second_sentence);
-        echo(" <b>I'm ready for the challenges</b>");
+        echo(" <b>Dari Kata: ". $second_sentence. "</b>");
         
         echo "<h3> Soal No 2</h3>";
         /* 
